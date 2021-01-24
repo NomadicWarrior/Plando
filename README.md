@@ -14,4 +14,6 @@ Note! Before to run this project please create .podfile first
   
   7) Save, run pod install
   8) Wait for dependency installation, run Plando.xcworkspace
+  
+  https://brainstorm-unity.000webhostapp.com/Images/Simulator%20Screen%20Shot%20-%20iPhone%2011%20-%202021-01-25%20at%2002.03.32.png
 
