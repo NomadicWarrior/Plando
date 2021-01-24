@@ -3,27 +3,47 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		5C0E4FAE25BC2B6100688CC8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0E4FAD25BC2B6100688CC8 /* AppDelegate.swift */; };
 		5C0E4FB025BC2B6100688CC8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0E4FAF25BC2B6100688CC8 /* SceneDelegate.swift */; };
-		5C0E4FB225BC2B6100688CC8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0E4FB125BC2B6100688CC8 /* ViewController.swift */; };
-		5C0E4FB525BC2B6100688CC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C0E4FB325BC2B6100688CC8 /* Main.storyboard */; };
+		5C0E4FB225BC2B6100688CC8 /* MainTaskListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0E4FB125BC2B6100688CC8 /* MainTaskListVC.swift */; };
 		5C0E4FB725BC2B6500688CC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C0E4FB625BC2B6500688CC8 /* Assets.xcassets */; };
 		5C0E4FBA25BC2B6500688CC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C0E4FB825BC2B6500688CC8 /* LaunchScreen.storyboard */; };
+		5C1E3ADB25BC474600F10EC4 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1E3ADA25BC474600F10EC4 /* ProfileVC.swift */; };
+		5C1E3AE325BC743100F10EC4 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1E3AE225BC743100F10EC4 /* CategoryCell.swift */; };
+		5C1E3AE725BC744600F10EC4 /* TasksCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1E3AE625BC744600F10EC4 /* TasksCell.swift */; };
+		5C1E3AEB25BC749600F10EC4 /* SelfConfiguringCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1E3AEA25BC749600F10EC4 /* SelfConfiguringCell.swift */; };
+		5C1E3AFC25BC772000F10EC4 /* Label + Font + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1E3AFB25BC772000F10EC4 /* Label + Font + Extension.swift */; };
+		5C1E3B0125BC7FF100F10EC4 /* DummyModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1E3B0025BC7FF100F10EC4 /* DummyModels.swift */; };
+		5C1E3B0725BC937600F10EC4 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1E3B0625BC937600F10EC4 /* HeaderView.swift */; };
+		5C3D139125BDACB000E58FEE /* RealmService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3D139025BDACB000E58FEE /* RealmService.swift */; };
+		5CDFB7E925BDC955007239F2 /* TaskViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDFB7E825BDC955007239F2 /* TaskViewModel.swift */; };
+		83BD0387066223884A6DDA0D /* Pods_Plando.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83395DF762AE2229FFE96159 /* Pods_Plando.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		497E59900A9A5DFAFC787F9A /* Pods-Plando.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Plando.debug.xcconfig"; path = "Target Support Files/Pods-Plando/Pods-Plando.debug.xcconfig"; sourceTree = "<group>"; };
 		5C0E4FAA25BC2B6100688CC8 /* Plando.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Plando.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C0E4FAD25BC2B6100688CC8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5C0E4FAF25BC2B6100688CC8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5C0E4FB125BC2B6100688CC8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5C0E4FB425BC2B6100688CC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5C0E4FB125BC2B6100688CC8 /* MainTaskListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTaskListVC.swift; sourceTree = "<group>"; };
 		5C0E4FB625BC2B6500688CC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C0E4FB925BC2B6500688CC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5C0E4FBB25BC2B6500688CC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C1E3ADA25BC474600F10EC4 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		5C1E3AE225BC743100F10EC4 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		5C1E3AE625BC744600F10EC4 /* TasksCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksCell.swift; sourceTree = "<group>"; };
+		5C1E3AEA25BC749600F10EC4 /* SelfConfiguringCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfConfiguringCell.swift; sourceTree = "<group>"; };
+		5C1E3AFB25BC772000F10EC4 /* Label + Font + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Label + Font + Extension.swift"; sourceTree = "<group>"; };
+		5C1E3B0025BC7FF100F10EC4 /* DummyModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyModels.swift; sourceTree = "<group>"; };
+		5C1E3B0625BC937600F10EC4 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		5C3D139025BDACB000E58FEE /* RealmService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmService.swift; sourceTree = "<group>"; };
+		5CDFB7E825BDC955007239F2 /* TaskViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewModel.swift; sourceTree = "<group>"; };
+		83395DF762AE2229FFE96159 /* Pods_Plando.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Plando.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		995558DB7BFEEE33D4299995 /* Pods-Plando.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Plando.release.xcconfig"; path = "Target Support Files/Pods-Plando/Pods-Plando.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +51,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83BD0387066223884A6DDA0D /* Pods_Plando.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		200FAECABC264843448D53FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				83395DF762AE2229FFE96159 /* Pods_Plando.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5C0E4FA125BC2B6100688CC8 = {
 			isa = PBXGroup;
 			children = (
 				5C0E4FAC25BC2B6100688CC8 /* Plando */,
 				5C0E4FAB25BC2B6100688CC8 /* Products */,
+				9800B5F167AC22DF61C7020A /* Pods */,
+				200FAECABC264843448D53FF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +87,104 @@
 		5C0E4FAC25BC2B6100688CC8 /* Plando */ = {
 			isa = PBXGroup;
 			children = (
-				5C0E4FAD25BC2B6100688CC8 /* AppDelegate.swift */,
-				5C0E4FAF25BC2B6100688CC8 /* SceneDelegate.swift */,
-				5C0E4FB125BC2B6100688CC8 /* ViewController.swift */,
-				5C0E4FB325BC2B6100688CC8 /* Main.storyboard */,
+				5C1E3AFF25BC7F9900F10EC4 /* Model */,
+				5C1E3B1025BDA53A00F10EC4 /* View */,
+				5CEC151725BDC8EA00ADD53C /* ViewModel */,
+				5C3D138F25BDAC8100E58FEE /* Services */,
+				5C1E3AEE25BC763200F10EC4 /* Extensions */,
+				5C1E3AE925BC747E00F10EC4 /* Protocols */,
+				5C0E4FC325BC2BBF00688CC8 /* App */,
 				5C0E4FB625BC2B6500688CC8 /* Assets.xcassets */,
 				5C0E4FB825BC2B6500688CC8 /* LaunchScreen.storyboard */,
 				5C0E4FBB25BC2B6500688CC8 /* Info.plist */,
 			);
 			path = Plando;
+			sourceTree = "<group>";
+		};
+		5C0E4FC325BC2BBF00688CC8 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				5C0E4FAD25BC2B6100688CC8 /* AppDelegate.swift */,
+				5C0E4FAF25BC2B6100688CC8 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		5C1E3AE125BC740400F10EC4 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				5C1E3AE225BC743100F10EC4 /* CategoryCell.swift */,
+				5C1E3AE625BC744600F10EC4 /* TasksCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		5C1E3AE925BC747E00F10EC4 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				5C1E3AEA25BC749600F10EC4 /* SelfConfiguringCell.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		5C1E3AEE25BC763200F10EC4 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5C1E3AFB25BC772000F10EC4 /* Label + Font + Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		5C1E3AFF25BC7F9900F10EC4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5C1E3B0025BC7FF100F10EC4 /* DummyModels.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5C1E3B0525BC933400F10EC4 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				5C1E3B0625BC937600F10EC4 /* HeaderView.swift */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		5C1E3B1025BDA53A00F10EC4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5C0E4FB125BC2B6100688CC8 /* MainTaskListVC.swift */,
+				5C1E3ADA25BC474600F10EC4 /* ProfileVC.swift */,
+				5C1E3AE125BC740400F10EC4 /* Cell */,
+				5C1E3B0525BC933400F10EC4 /* Header */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5C3D138F25BDAC8100E58FEE /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				5C3D139025BDACB000E58FEE /* RealmService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		5CEC151725BDC8EA00ADD53C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				5CDFB7E825BDC955007239F2 /* TaskViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		9800B5F167AC22DF61C7020A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				497E59900A9A5DFAFC787F9A /* Pods-Plando.debug.xcconfig */,
+				995558DB7BFEEE33D4299995 /* Pods-Plando.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +194,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5C0E4FBE25BC2B6500688CC8 /* Build configuration list for PBXNativeTarget "Plando" */;
 			buildPhases = (
+				2ABBFF817F8D0C2A01AFD92C /* [CP] Check Pods Manifest.lock */,
 				5C0E4FA625BC2B6100688CC8 /* Sources */,
 				5C0E4FA725BC2B6100688CC8 /* Frameworks */,
 				5C0E4FA825BC2B6100688CC8 /* Resources */,
+				D9111429FFD25B07E40BF3DD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,34 +248,76 @@
 			files = (
 				5C0E4FBA25BC2B6500688CC8 /* LaunchScreen.storyboard in Resources */,
 				5C0E4FB725BC2B6500688CC8 /* Assets.xcassets in Resources */,
-				5C0E4FB525BC2B6100688CC8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2ABBFF817F8D0C2A01AFD92C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Plando-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9111429FFD25B07E40BF3DD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Plando/Pods-Plando-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Plando/Pods-Plando-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Plando/Pods-Plando-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5C0E4FA625BC2B6100688CC8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C0E4FB225BC2B6100688CC8 /* ViewController.swift in Sources */,
+				5C1E3AEB25BC749600F10EC4 /* SelfConfiguringCell.swift in Sources */,
+				5CDFB7E925BDC955007239F2 /* TaskViewModel.swift in Sources */,
+				5C3D139125BDACB000E58FEE /* RealmService.swift in Sources */,
+				5C1E3ADB25BC474600F10EC4 /* ProfileVC.swift in Sources */,
+				5C0E4FB225BC2B6100688CC8 /* MainTaskListVC.swift in Sources */,
+				5C1E3AFC25BC772000F10EC4 /* Label + Font + Extension.swift in Sources */,
+				5C1E3AE725BC744600F10EC4 /* TasksCell.swift in Sources */,
+				5C1E3B0725BC937600F10EC4 /* HeaderView.swift in Sources */,
 				5C0E4FAE25BC2B6100688CC8 /* AppDelegate.swift in Sources */,
+				5C1E3B0125BC7FF100F10EC4 /* DummyModels.swift in Sources */,
 				5C0E4FB025BC2B6100688CC8 /* SceneDelegate.swift in Sources */,
+				5C1E3AE325BC743100F10EC4 /* CategoryCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		5C0E4FB325BC2B6100688CC8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5C0E4FB425BC2B6100688CC8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		5C0E4FB825BC2B6500688CC8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -283,11 +447,13 @@
 		};
 		5C0E4FBF25BC2B6500688CC8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 497E59900A9A5DFAFC787F9A /* Pods-Plando.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Plando/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -301,11 +467,13 @@
 		};
 		5C0E4FC025BC2B6500688CC8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 995558DB7BFEEE33D4299995 /* Pods-Plando.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Plando/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
